@@ -1,0 +1,130 @@
+tr {
+    background-color: white;
+}
+
+th,
+td {
+    color: black;
+}
+
+table {
+    color: black;
+}
+
+.dia {
+    background-color: rgb(20, 94, 6);
+}
+
+.colacao {
+    background-color: cyan;
+}
+
+.tf {
+    background-color: rgb(245, 245, 83);
+}
+
+.td {
+    background-color: blueviolet;
+}
+
+.loga {
+    background-color: orange;
+}
+
+.buga {
+    background: linear-gradient(blueviolet, orange);
+    background: linear-gradient(90deg,
+            rgba(orange) 50%,
+
+        )
+}
+
+.uga {
+    background-color: red;
+}
+
+.dh {
+    background: linear-gradient(red, green);
+}
+
+.init {
+    background-color: darkred;
+}
+
+.proj {
+    background-color: brown;
+}
+
+.fg {
+    background: linear-gradient(rgb(63, 46, 124), rgb(204, 114, 174));
+}
+
+.reu {
+    background-color: darkblue;
+}
+
+.tdex {
+    background-color: rgb(67, 10, 121);
+}
+
+.fds {
+    background: linear-gradient(rgb(67, 10, 121), rgb(226, 19, 64));
+}
+
+.final {
+    background: linear-gradient(rgb(245, 241, 28), rgb(155, 3, 3));
+}
+
+.fug {
+    background: linear-gradient(rgb(87, 86, 66), rgb(2, 124, 53));
+}
+
+.bv {
+    background-color: rgb(2, 124, 53);
+}
+
+.cl {
+    background: linear-gradient(rgb(6, 146, 111), rgb(67, 111, 112));
+}
+
+.gh {
+    background-color: rgb(9, 97, 68);
+}
+
+.coisarada {
+    background-color: olive;
+}
+
+.a {
+    background-color: salmon;
+}
+
+.b {
+    background-color: rosybrown;
+}
+
+.r {
+    background-color: dodgerblue;
+}
+
+.n {
+    background-color: red;
+}
+
+.aga {
+    background-color: limegreen;
+}
+
+.p {
+    background-color: yellow;
+}
+
+.univille {
+    background-color: green;
+}
+.saob{
+    background-color: mediumaquamarine;
+}
+.f{
+    background-color: darkslategray;
+}
