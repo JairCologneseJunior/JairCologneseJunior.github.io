@@ -50,9 +50,30 @@
 
             </div>
         </nav><!--arroucel-->
-       <div class="roger">
-                <img src="img/dentro.jpg" class="d-block w-100" alt="..." width="100px" height="450px">
-        </div>
+        <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval= "6000">
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="first-slide animated zoomInUp" src="img/dentro.jpg">
+                <div class="container">
+                  <div class="carousel-caption d-none d-md-block text-left">
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="second-slide animated zoomInDown" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-fVv6bAGKlo6T9sqHTxjPqrkgUc_gLJt9hQZu6fKRw7LtX8zO" alt="">
+                <div class="container">
+                  <div class="carousel-caption d-none d-md-block">
+                    
+                  </div>
+                </div>
+              </div>
+              </div>
             
         <!---Produto principal-->
         <center>
@@ -61,11 +82,14 @@
                 <div class="card h-100 shadow-lg">
                     <div class="card-body">
                         <div class="text-center p-3">
+                            <h1 class="text-center head red">Produto Principal</h1>
                             <h5 class="card-title">ShiPment</h5>
 
                             
                         </div>
+                        
                         <center>
+                        
                             <img src="img/2.png" alt="chip" width="200px" height="200px">
                         </center>
 
@@ -91,7 +115,7 @@
                             </svg> Cuidados</li>
                     </ul>
                     <div class="card-body text-center">
-                        <button class="btn btn-outline-primary btn-lg" style="border-radius:30px">Comprar</button>
+                        <a href="comprar.html" class="btn btn-primary btn-lg">Comprar</a> 
                     </div>
                 </div>
             </div>
@@ -108,16 +132,14 @@
     </nav>
     <div class="site-inner">
         <section class="container-fluid">
-            <!-- BEGIN NEW ROW AFTER ACCORDION -->
             <div class="row mg">
-                <!-- FIRST ROW -->
                 <div class="container">
-                    <h1 class="text-center head red">Quality</h1>
+                    <h1 class="text-center head red">Sobre</h1>
                     <div class="row">
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="product-box">
                                 <h2 class="text-center"><i class="fa fa-gears"></i></h2>
-                                <h3 class="text-center">Para que ele Serverve</h3>
+                                <h3 class="text-center">Para que ele Serve</h3>
                                 <p>O ChipMent tem a funcionalidade facilitar o controle do produtor rural, facilitando e
                                     diminuindo o trabalho e os gastos que ele teria com veterinários e transporte
                                 </p>
@@ -158,37 +180,37 @@
             <div class="row mg">
                 <!-- SECOND ROW -->
                 <div class="container">
-                    <h1 class="text-center head red">Products</h1>
+                    <h1 class="text-center head red">Outros Produtos (vendidos por parceiros)</h1>
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-xs-12">
-                            <h3 class="text-center">Ração </h3>
+                            <h3 class="text-center">Ração Bovina</h3>
                             <div class="sm-box"
                                 style="background-image: url('img/racao-para-bovinos.png');">
                                 <div class="sm-box-overlay"></div>
                                 <!--Aki os botoes-->
-                                <div class="sm-box-basket"><a href="" class="button button-red" data-toggle="modal"
+                                <div class="sm-box-basket"><a href="https://nutrinorte.com.br/produtos/racao-prime/" class="button button-red" data-toggle="modal"
                                         data-target="#modal">Comprar</a></div>
                                 <div class="sm-box-content"><i class="fa fa-chevron-right"></i>$ 150.00</div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12">
-                            <h3 class="text-center">Vacinas</h3>
+                            <h3 class="text-center">Aplicador de Vacina</h3>
                             <div class="sm-box"
                                 style="background-image: url('img/vacina.jpg');">
                                 <div class="sm-box-overlay"></div>
-                                <div class="sm-box-basket"><a href="#" class="button button-red" data-toggle="modal"
+                                <div class="sm-box-basket"><a href="https://shopee.com.br/Aplicador-De-Vacina-E-Medica%C3%A7%C3%A3o-Gado-Kaber-Vision-50ml-i.289176389.4254218810" class="button button-red" data-toggle="modal"
                                         data-target="#modal">Comprar</a></div>
                                 <div class="sm-box-content"><i class="fa fa-chevron-right"></i>  $ 1230.00</div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12">
-                            <h3 class="text-center">Venedo de boi</h3>
+                            <h3 class="text-center">Triatox</h3>
                             <div class="sm-box"
                                 style="background-image: url('img/Veneno\ de\ boi.jpg');">
                                 <div class="sm-box-overlay"></div>
-                                <div class="sm-box-basket"><a href="#" class="button button-red" data-toggle="modal"
-                                        data-target="#modal">Select</a></div>
-                                <div class="sm-box-content"><i class="fa fa-chevron-right"></i> Order now $ 150.00</div>
+                                <div class="sm-box-basket"><a href="https://www.msd-saude-animal.com.br/produto/triatox-pecuaria/" class="button button-red" data-toggle="modal"
+                                        data-target="#modal">Comprar</a></div>
+                                <div class="sm-box-content"><i class="fa fa-chevron-right"></i>$ 50.00</div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12">
@@ -196,9 +218,9 @@
                             <div class="sm-box"
                                 style="background-image: url('img/lepecid_spray_roxo_400_ml_11200_1_18331e14596a0a83dde3d2cfc1770646.webp');">
                                 <div class="sm-box-overlay"></div>
-                                <div class="sm-box-basket"><a href="#" class="button button-red" data-toggle="modal"
-                                        data-target="#modal">Select</a></div>
-                                <div class="sm-box-content"><i class="fa fa-chevron-right"></i> Order now $ 200.00</div>
+                                <div class="sm-box-basket"><a href="https://trevoroxo.com/produtos/desincrustante.php" class="button button-red" data-toggle="modal"
+                                        data-target="#modal">Comprar</a></div>
+                                <div class="sm-box-content"><i class="fa fa-chevron-right"></i>$ 22.00</div>
                             </div>
                         </div>
                     </div>
@@ -211,15 +233,15 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
-                        <h3 class="h3">About us</h3>
+                        <h3 class="h3">Sobre Nós</h3>
                         <ul class="footer-list">
-                            <li><a href="#">nossa historia</a></li>
+                            <li><a href="#">Nossa historia</a></li>
                             <li><a href="#">Local</a></li>
-                            <li><a href="#">outros</a></li>
+                            <li><a href="#">Outros</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3">
-                        <h3 class="h3">Partners</h3>
+                        <h3 class="h3">Parceiros</h3>
                         <ul class="footer-list">
                             <li><a href="#">Kabum</a></li>
                             <li><a href="#">Univille</a></li>
@@ -227,17 +249,20 @@
                         </ul>
                     </div>
                     <div class="col-md-3">
-                        <h3 class="h3">Customer support</h3>
+                        <h3 class="h3">SAC</h3>
                         <ul class="footer-list">
-                            <li><a href="#">+55 (47) 984277624</a></li>
-                            <li><a href="#">davidsist23@gmail.com</a></li>
+                            <li><a href="#">+55 (47) 95610438</a></li>
+                            <li><a href="#">yurimsal@gmail.com</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3">
-                        <h3 class="h3">Socials</h3>
+                        <h3 class="h3">Nos Siga!</h3>
                         <ul class="footer-list footer-list-inline">
-                            <li><a href="#"><i class="fa fa-facebook">Ox shop</i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram">@Ox shop</i></a></li>
+                            <li><a href="https://www.facebook.com/"><i class="fa fa-facebook">Facebook</i></a></li><br>
+                            <li><a href="https://www.instagram.com/"><i class="fa fa-instagram">Instagram</i></a></li><br>
+                            <li><a href="https://www.linkedin.com/"><i class="fa fa-facebook">Linkedin</i></a></li><br>
+                            <li><a href="https://www.youtube.com/"><i class="fa fa-facebook">Youtube</i></a></li>
+
                             
                         </ul>
                     </div>
